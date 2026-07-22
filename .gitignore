@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python environment
+.python-version
+
+# Build
+dist/
+build/
+
+# Logs
+*.log
+
+# Generated data
+data/raw/*.csv
+data/bronze/*.csv
+data/silver/*.csv
+data/gold/*.csv
+
+# Validation reports
+reports/*.xlsx
+reports/*.csv
+
+# Databricks
+.databricks/
+
+# Secrets
+.env

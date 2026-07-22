@@ -43,3 +43,14 @@ reports/*.csv
 
 # Secrets
 .env
+
+# Generated data layers
+data/bronze/
+data/silver/
+data/gold/
+
+# Generated reports
+data/reports/
+
+# Parquet outputs
+*.parquet
